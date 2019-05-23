@@ -5,7 +5,7 @@
 A generated **flow**ground connector for the Analytics Reporting API (version v4).
 
 Generated from: https://api.apis.guru/v2/specs/googleapis.com/analyticsreporting/v4/swagger.json<br/>
-Generated at: 2019-05-07T17:41:09+03:00
+Generated at: 2019-05-23T12:12:57+03:00
 
 ## API Description
 

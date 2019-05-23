@@ -26,7 +26,7 @@
                 "label": "Custom Server URL",
                 "viewClass": "TextFieldView"
             },
-            "Oauth2": {
+            "oauth2": {
                 "label": "Oauth 2.0 authentication",
                 "viewClass": "OAuthFieldView"
             }
@@ -34,7 +34,12 @@
         "oauth2": {
             "client_id": "{{OAUTH_CLIENT_ID}}",
             "client_secret": "{{OAUTH_CLIENT_SECRET}}",
-            "auth_uri": "https://accounts.google.com/o/oauth2/auth"
+            "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+            "token_uri": "https://www.googleapis.com/oauth2/v4/token",
+            "scopes": [
+                "https://www.googleapis.com/auth/analytics",
+                "https://www.googleapis.com/auth/analytics.readonly"
+            ]
         }
     },
     "triggers": {

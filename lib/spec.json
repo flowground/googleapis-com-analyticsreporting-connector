@@ -7764,12 +7764,13 @@
                 "description": "Oauth 2.0 authentication",
                 "type": "oauth2",
                 "flows": {
-                    "implicit": {
+                    "authorizationCode": {
                         "authorizationUrl": "https://accounts.google.com/o/oauth2/auth",
                         "scopes": {
                             "https://www.googleapis.com/auth/analytics": "View and manage your Google Analytics data",
                             "https://www.googleapis.com/auth/analytics.readonly": "View your Google Analytics data"
-                        }
+                        },
+                        "tokenUrl": "https://www.googleapis.com/oauth2/v4/token"
                     }
                 }
             }
